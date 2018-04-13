@@ -1,0 +1,80 @@
+[
+
+  
+    
+    
+    {
+      "title": "Welcome",
+      "url": "/wmp-offshoregroup/docs/home/"
+
+    },
+  
+    
+    
+    {
+      "title": "Themes",
+      "url": "/wmp-offshoregroup/docs/themes/"
+
+    },
+  
+    
+    
+    {
+      "title": "Customization",
+      "url": "/wmp-offshoregroup/docs/customization/"
+
+    },
+  
+    
+    
+    {
+      "title": "My Page",
+      "url": "/wmp-offshoregroup/docs/my-page/"
+
+    },
+  
+
+  
+    
+    
+    {
+      "title": "Markdown Cheatsheet",
+      "url": "/wmp-offshoregroup/docs/cheatsheet/"
+
+    },
+  
+    
+    
+    {
+      "title": "Font Awesome Icon List",
+      "url": "/wmp-offshoregroup/docs/font-awesome/"
+
+    },
+  
+    
+    
+    {
+      "title": "Bootstrap Features",
+      "url": "/wmp-offshoregroup/docs/bootstrap/"
+
+    },
+  
+
+
+  
+  {
+  "title": "Even proberen",
+  "url": "/wmp-offshoregroup/blog/2018/04/06/proberen/"
+  },
+  
+  {
+  "title": "The site is published!",
+  "url": "/wmp-offshoregroup/blog/2018/04/04/test/"
+  },
+  
+  {
+  "title": "WMP",
+  "url": "/wmp-offshoregroup/blog/2017/05/03/jekyll-doc-theme/"
+  }
+  
+]
