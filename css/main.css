@@ -93,6 +93,25 @@ a, a:focus, a:hover {
   outline: 0;
 }
 
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 16px;
+}
+
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -1941,6 +1960,16 @@ h1, h2, h3, h4, h5, h6 {
   .header-top {
     display: none;
   }
+
+  .banner-content .long-text {
+    display: none;
+  }
+}
+@media (min-width: 767px) {
+
+  .banner-content .short-text {
+    display: none;
+  }
 }
 
 .top-head-btn {
@@ -2157,8 +2186,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 998;
   background: rgba(0, 0, 0, 0.8);
-  left: -260px;
-  width: 260px;
+  left: -300px;
+  width: 300px;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -2175,10 +2204,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li a {
   color: #fff;
-  font-size: 13px;
+  font-size: 18px;
   text-transform: uppercase;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 20px 22px 10px 15px;
   position: relative;
   text-decoration: none;
   width: 100%;
@@ -2716,6 +2745,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 .feedback-right .star {
   margin-left: 20px;
 }
+
+@media (max-width: 768px) {
+
+  .feedback-right .star {
+    margin-left: 5px;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+
 
 .feedback-right .star .checked {
   color: orange;
