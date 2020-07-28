@@ -2139,6 +2139,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
 }
 
+.nav-menu a:hover {
+  border-bottom: 5px solid var(--primary-color);
+  border-radius: 2px;
+  margin-bottom: -5px;
+}
+.nav-menu .menu-active {
+  border-bottom: 5px solid var(--primary-color);
+  border-radius: 2px;
+  margin-bottom: -5px;
+}
+
 .nav-menu ul ul {
   margin: 0;
 }
